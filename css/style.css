@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(208, 234, 255);
+    height: 500px;
+    width: 450px;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 12px 20px 5px rgb(123, 118, 118);
+}
+
+.brand-logo {
+    background: url(../image.png);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.brand-title {
+    color: rgb(9, 191, 251);
+}
+
+.inputs {
+    text-align: left;
+}
+
+label,button,input {
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+label {
+    color: rgb(9, 191, 251);
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 50px;
+    height: 30px;
+    ; box-shadow: 10px 10px 6px rgb(234, 234, 234);
+}
+
+button {
+    margin-top: 100px;
+    background-color: rgb(22, 49, 225);
+    color: rgb(243, 244, 245);
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 10px 10px 6px rgb(234, 234, 234);
+}
